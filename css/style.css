@@ -80,17 +80,19 @@ header a {
   position: absolute;
   bottom: 100px;
   left: 50px;
-  color: white;
-  font-weight: 100;
 }
-#jumbotron p {
+
+#jumbotron h2 {
+  font-weight: 200;
+}
+
+.jumbo-cont * {
   color: white;
 }
 
 /* Section */
 .main-container .main-section {
   margin: 25px 0;
-  /* rimuovere */
 }
 
 .main-section .second-header {
@@ -148,9 +150,10 @@ header a {
 .column-text {
   padding: 25px 0;
 }
-
 .column-text h2 {
-  padding-bottom: 25px;
+  padding-bottom: 15px;
+  font-weight: 100;
+  font-size: 1rem;
 }
 
 /* footer */
