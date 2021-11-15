@@ -17,15 +17,6 @@ body {
 #container {
   width: 75%;
   margin: 0 auto;
-
-  /* rimuovere */
-  height: 900px;
-  background-color: antiquewhite;
-}
-
-h1,
-h2 {
-  color: black;
 }
 
 p,
@@ -33,10 +24,13 @@ a {
   color: grey;
 }
 
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
 /* Header */
 #container header {
-  /* rimuovere */
-  background-color: aquamarine;
   text-transform: uppercase;
 }
 
@@ -54,3 +48,33 @@ header li {
 header a {
   text-decoration: none;
 }
+
+/* Main-container */
+.main-container {
+  padding: 25px 0;
+}
+
+#jumbotron {
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#jumbotron .jumbo-cont {
+  width: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  color: white;
+  font-weight: 100;
+}
+#jumbotron p {
+  color: white;
+}
+
+/* Section */
