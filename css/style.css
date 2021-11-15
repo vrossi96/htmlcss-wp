@@ -1,0 +1,56 @@
+/* Generics */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Utilities */
+#container {
+  width: 75%;
+  margin: 0 auto;
+
+  /* rimuovere */
+  height: 900px;
+  background-color: antiquewhite;
+}
+
+h1,
+h2 {
+  color: black;
+}
+
+p,
+a {
+  color: grey;
+}
+
+/* Header */
+#container header {
+  /* rimuovere */
+  background-color: aquamarine;
+  text-transform: uppercase;
+}
+
+#logo {
+  height: 80px;
+}
+
+header ul {
+  padding: 25px 0;
+}
+header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header a {
+  text-decoration: none;
+}
