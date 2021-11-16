@@ -107,6 +107,12 @@ header a {
   float: left;
 }
 
+div[class*="colonna"] {
+  border: 1px solid rgba(230, 230, 230, 0.5);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
 .colonna-lato {
   width: 25%;
 }
@@ -119,11 +125,26 @@ header a {
 /* Contenuto colonne */
 
 /* pics */
-.pic-column {
+#first-row .pic-column {
   height: 290px;
   border-radius: 15px;
   overflow: hidden;
   width: 100%;
+}
+
+#second-row .pic-column {
+  height: 120px;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 50%;
+  float: left;
+  margin-right: 5px;
+}
+
+#second-row .pic-column.right-b {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
 }
 
 .pic-column.left {
