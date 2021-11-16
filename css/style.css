@@ -62,6 +62,10 @@ header a {
   text-decoration: none;
 }
 
+.logo-header li:hover {
+  transform: scale(1.2);
+}
+
 /* Main-container */
 .main-container {
   padding: 25px 0;
@@ -73,6 +77,12 @@ header a {
   overflow: hidden;
   background-image: url(../img/banner.jpg);
   position: relative;
+  cursor: pointer;
+}
+
+#jumbotron:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #jumbotron .jumbo-cont {
@@ -111,6 +121,11 @@ div[class*="colonna"] {
   border: 1px solid rgba(230, 230, 230, 0.5);
   border-radius: 15px;
   margin-top: 15px;
+  cursor: pointer;
+}
+
+div[class*="colonna"]:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .colonna-lato {
